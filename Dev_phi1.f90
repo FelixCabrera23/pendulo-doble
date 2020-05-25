@@ -19,7 +19,7 @@ FUNCTION Dw1(m1,m2,l1,l2,th1,th2,w1,w2)
   ! Variables internas:
   REAL(8) :: Dw1, g, A, B
   
-  g = 98.1
+  g = 981
   A = (-g*(2*m1+m2)*SIN(th1)-m2*g*SIN(th1-2*th2)-2*SIN(th1-th2)*m2*(w2*w2*l2+w1*w1*l1*COS(th1-th2)))
   B = (l1*(2*m1+m2-m2*COS(2*th1-2*th2))) 
   Dw1 = A/B

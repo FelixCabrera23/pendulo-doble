@@ -18,7 +18,7 @@ FUNCTION Dw2(m1,m2,l1,l2,th1,th2,w1,w2)
   
   ! Variables internas:
   REAL(8) :: Dw2, g
-  g = 98.1
+  g = 981
   
   Dw2 = (2*SIN(th1-th2)*(w1*w1*l1*(m1+m2)+g*(m1+m2)*COS(th1)+w2*w2*l2*m2*COS(th1-th2)))/(l2*(2*m1+m2-m2*COS(2*th1-2*th2)))
 
